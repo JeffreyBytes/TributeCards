@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Swipe",
+    "art": "tot_rahjin_swipe.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bag of Tricks",
+    "art": "tot_rahjin_bag-of-tricks.dds",
+    "type": "Contract Action",
+    "cost": 7,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jarring Lullaby",
+    "art": "tot_rahjin_jarring-lullaby.dds",
+    "type": "Action",
+    "cost": 7,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 2
+        },
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jeering Shadow",
+    "art": "tot_rahjin_jeering-shadow.dds",
+    "type": "Agent",
+    "cost": 4,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "lose_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Moonlit Illusion",
+    "art": "tot_rahjin_moonlit-illusion.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "lose_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pounce and Profit",
+    "art": "tot_rahjin_pounce-and-profit.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "ko_agent",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sleight of Hand",
+    "art": "tot_rahjin_sleight-of-hand.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Stubborn Shadow",
+    "art": "tot_rahjin_stubborn-shadow.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "combo2": [
+        {
+          "type": "lose_prestige",
+          "value": 2
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "Twilight Revelry",
+    "art": "tot_rahjin_twilight-revelry.dds",
+    "type": "Action",
+    "cost": 10,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 3
+        }
+      ],
+      "combo3": [
+        {
+          "type": "lose_prestige",
+          "value": 3
+        }
+      ],
+      "combo4": [
+        {
+          "type": "draw",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Grand Larceny",
+    "art": "tot_rahjin_grand-larceny.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "ko_agent",
+          "value": 1
+        },
+        {
+          "type": "lose_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Prowling Shadow",
+    "art": "tot_rahjin_prowling-shadow.dds",
+    "type": "Agent",
+    "cost": 4,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "lose_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ring's Guile",
+    "art": "tot_rahjin_rings-guile.dds",
+    "type": "Contract Action",
+    "cost": 7,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "discard",
+          "value": 1
+        },
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shadow's Slumber",
+    "art": "tot_rahjin_spellbound-slumber.dds",
+    "type": "Action",
+    "cost": 7,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 2
+        },
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        }
+      ],
+      "combo3": [
+        {
+          "type": "discard",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bewilderment",
+    "art": "tot_rahjin_bewilderment.dds",
+    "type": "Curse Action",
+    "cost": null,
+    "health": null,
+    "effects": {}
+  }
+]
