@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Goods Shipment",
+    "art": "tot_hlaalu_goods-shipment.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Currency Exchange",
+    "art": "tot_hlaalu_currency-exchange.dds",
+    "type": "Action",
+    "cost": 7,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "replace",
+          "value": 1
+        },
+        {
+          "type": "gain_coin",
+          "value": 5
+        }
+      ],
+      "combo2": [
+        {
+          "type": "bonus_patron",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Customs Seizure",
+    "art": "tot_hlaalu_customs-seizure.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hireling",
+    "art": "tot_hlaalu_hireling.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hlaalu Kinsman",
+    "art": "tot_hlaalu_kinsman.dds",
+    "type": "Agent",
+    "cost": 10,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hostile Takeover",
+    "art": "tot_hlaalu_hostile-takeover.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "House Marketplace",
+    "art": "tot_hlaalu_house-marketplace.dds",
+    "type": "Action",
+    "cost": 8,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 6
+        }
+      ],
+      "combo2": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kwama Egg Mine",
+    "art": "tot_hlaalu_kwama-egg-mine.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Luxury Exports",
+    "art": "tot_hlaalu_luxury-exports.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ebony Mine",
+    "art": "tot_hlaalu_ebony-mine.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hlaalu Councilor",
+    "art": "tot_hlaalu_councilor.dds",
+    "type": "Agent",
+    "cost": 10,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "House Embassy",
+    "art": "tot_hlaalu_house-embassy.dds",
+    "type": "Action",
+    "cost": 8,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 7
+        }
+      ],
+      "combo2": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oathman",
+    "art": "tot_hlaalu_oathman.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "acquire",
+          "value": 1
+        }
+      ]
+    }
+  }
+]

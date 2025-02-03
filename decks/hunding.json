@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Way of the Sword",
+    "art": "tot_hunding_way-of-the-sword.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ansei Assault",
+    "art": "tot_hunding_ansei-assault.dds",
+    "type": "Action",
+    "cost": 9,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Battle Meditation",
+    "art": "tot_hunding_battle-meditation.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Conquest",
+    "art": "tot_hunding_conquest.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "March on Hattu",
+    "art": "tot_hunding_march-on-hattu.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "No Shira Poet",
+    "art": "tot_hunding_no-shira-poet.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "refresh",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shehai Summoning",
+    "art": "tot_hunding_shehai-summoning.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "refresh",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warrior Wave",
+    "art": "tot_hunding_warrior-wave.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ansei's Victory",
+    "art": "tot_hunding_anseis-victory.dds",
+    "type": "Action",
+    "cost": 9,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Grand Oratory",
+    "art": "tot_hunding_grand-oratory.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hel Shira Herald",
+    "art": "tot_hunding_hel-shira-herald.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "refresh",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hira's End",
+    "art": "tot_hunding_hiras-end.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  }
+]

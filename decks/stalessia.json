@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Alessian Rebel",
+    "art": "tot_stalessia_alessian-rebel.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ayleid Defector",
+    "art": "tot_stalessia_ayleid-defector.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chainbreaker Sergeant",
+    "art": "tot_stalessia_chainbreaker-sergeant.dds",
+    "type": "Agent",
+    "cost": 4,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Morihaus, the Archer",
+    "art": "tot_stalessia_morihaus-archer.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "ko_agent",
+          "effect": { "type": "gain_coin", "value": 1}
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pelinal Whitestrake",
+    "art": "tot_stalessia_pelinal-whitestrake.dds",
+    "type": "Agent",
+    "cost": 7,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Priestess of the Eight",
+    "art": "tot_stalessia_priestess-of-the-eight.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Saint's Wrath",
+    "art": "tot_stalessia_lady-of-heavens-wrath.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Soldier of the Empire",
+    "art": "tot_stalessia_solder-of-the-empire.dds",
+    "type": "Agent",
+    "cost": 3,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ayleid Quartermaster",
+    "art": "tot_stalessia_ayleid-quartermaster.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chainbreaker Captain",
+    "art": "tot_stalessia_chainbreaker-captain.dds",
+    "type": "Agent",
+    "cost": 4,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Morihaus, Sacred Bull",
+    "art": "tot_stalessia_sacredbull.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "ko_agent",
+          "effect": { "type": "gain_coin", "value": 1}
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Whitestrake Ascendant",
+    "art": "tot_stalessia_whitestrake-ascendant.dds",
+    "type": "Agent",
+    "cost": 7,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "choose_one",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 4
+        }
+      ]
+    }
+  }
+]

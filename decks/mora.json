@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Unsealed Glyphic",
+    "art": "tot_hermaeusmora_unsealedglyphic.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 1}
+      ],
+      "combo3": [
+        { "type": "gain_coin", "value": 1}
+      ]
+    }
+  },
+  {
+    "name": "Apocryphal Pact",
+    "art": "tot_hermaeusmora_apocryphalcontract.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 2},
+        { "type": "gain_coin", "value": 1},
+        { "type": "opponent_gain_coin", "value": 2}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo3": [
+        { "type": "gain_power", "value": 1}
+      ]
+    }
+  },
+  {
+    "name": "Bargain for Knowledge",
+    "art": "tot_hermaeusmora_bargainforknowledge.dds",
+    "type": "Contract Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 5},
+        { "type": "gain_coin", "value": 1},
+        { "type": "opponent_draw", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_coin", "value": 1}
+      ],
+      "combo3": [
+        { "type": "gain_coin", "value": 2}
+      ]
+    }
+  },
+  {
+    "name": "Cipher of the Eye",
+    "art": "tot_hermaeusmora_cipheroftheeye.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        { "type": "destroy_cards", "value": 1},
+        { "type": "opponent_gain_coin", "value": 3}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 2}
+      ]
+    }
+  },
+  {
+    "name": "Unsettling Aura",
+    "art": "tot_hermaeusmora_unsettlingaura.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 4},
+        { "type": "opponent_draw", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo3": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo4": [
+        { "type": "gain_power", "value": 3}
+      ]
+    }
+  },
+  {
+    "name": "Ink and Blood",
+    "art": "tot_hermaeusmora_inkandblood.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 2},
+        { "type": "opponent_gain_power", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 1},
+        { "type": "gain_coin", "value": 2}
+      ]
+    }
+  },
+  {
+    "name": "Threads of Fate",
+    "art": "tot_hermaeusmora_threadsoffate.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 2},
+        { "type": "opponent_gain_coin", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 1}
+      ],
+      "combo3": [
+        { "type": "gain_coin", "value": 1}
+      ]
+    }
+  },
+  {
+    "name": "Voracious Tomeshell",
+    "art": "tot_hermaeusmora_voracioustomeshell.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "destroy_cards", "value": 2},
+        { "type": "opponent_draw", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 3}
+      ]
+    }
+  },
+  {
+    "name": "Chromatic Reservoir",
+    "art": "tot_hermaeusmora_chromaticdomain.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 4},
+        { "type": "opponent_draw", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo3": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo4": [
+        { "type": "gain_power", "value": 4}
+      ]
+    }
+  },
+  {
+    "name": "Lantern of the Endless",
+    "art": "tot_hermaeusmora_lanternoftheendlesslibrary.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 2},
+        { "type": "gain_coin", "value": 1},
+        { "type": "opponent_gain_coin", "value": 2}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 2}
+      ],
+      "combo3": [
+        { "type": "gain_power", "value": 2}
+      ]
+    }
+  },
+  {
+    "name": "Seeker Aspirant",
+    "art": "tot_hermaeusmora_seekeraspirant.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        { "type": "destroy_cards", "value": 1},
+        { "type": "opponent_gain_coin", "value": 3}
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 3}
+      ]
+    }
+  },
+  {
+    "name": "Unfathomable Secrets",
+    "art": "tot_hermaeusmora_wewerenotmeanttoknow.dds",
+    "type": "Agent",
+    "cost": 4,
+    "health": 5,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 5},
+        { "type": "opponent_draw", "value": 1}
+      ],
+      "combo2": [
+        { "type": "gain_coin", "value": 2}
+      ],
+      "combo3": [
+        { "type": "gain_coin", "value": 2}
+      ]
+    }
+  }
+]

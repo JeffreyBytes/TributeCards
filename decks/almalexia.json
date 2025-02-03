@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Collection Plate",
+    "art": "tot_almalexia_collectionplate.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 1}
+      ],
+      "combo3": [
+        { "type": "donate", "value": 1}
+      ]
+    }
+  },
+  {
+    "name": "Bardic Veneration",
+    "art": "tot_almalexia_bardicveneration.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 2 },
+        { "type": "donate", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "donate", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Devotional Gaoler",
+    "art": "tot_almalexia_devotionalgaoler.dds",
+    "type": "Contract Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "confine", "value": 1 }
+      ],
+      "combo3": [
+        { "type": "confine", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Mother's Mercy",
+    "art": "tot_almalexia_mothersmercy.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 1 },
+        { "type": "refresh", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Mournhold Clergy",
+    "art": "tot_almalexia_mournholdclergy.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 3,
+    "effects": {
+      "while_in_play": [
+        {
+          "trigger": "discard_card",
+          "effect": { "type": "gain_prestige", "value": 2}
+        }
+      ],
+      "combo2": [
+        { "type": "donate", "value": 1 },
+        { "type": "confine", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Philanthropy",
+    "art": "tot_almalexia_philanthropy.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 1 }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "discard_card",
+          "effect": { "type": "gain_power", "value": 1}
+        }
+      ],
+      "combo2": [
+        { "type": "donate", "value": 1 }
+      ],
+      "combo3": [
+        { "type": "donate", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Temple Arbiter",
+    "art": "tot_almalexia_templearbiter.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 2,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 2 }
+      ],
+      "combo2": [
+        { "type": "confine", "value": 1 }
+      ],
+      "combo3": [
+        { "type": "confine", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "The Lesson of Ayem",
+    "art": "tot_almalexia_thelessonofayem.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": 3,
+    "effects": {
+      "play": [
+        { "type": "donate", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "draw", "value": 1 }
+      ],
+      "combo3": [
+        { "type": "donate", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Tribunal Sentinel",
+    "art": "tot_almalexia_tribunalsentinel.dds",
+    "type": "Agent",
+    "cost": 8,
+    "health": 5,
+    "effects": {
+      "combo2": [
+        { "type": "bonus_patron", "value": 1 }]
+    },
+    "taunt": true
+  },
+  {
+    "name": "ALMSIVI's Charity",
+    "art": "tot_almalexia_almsivischarity.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 1 },
+        { "type": "refresh", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "gain_coin", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Festival of Forbearance",
+    "art": "tot_almalexia_festivalofforbearance.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 2 },
+        { "type": "donate", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "gain_power", "value": 1 },
+        { "type": "donate", "value": 1 }
+      ]
+    }
+  },
+  {
+    "name": "Hand of Almalexia",
+    "art": "tot_almalexia_handofalmalexia.dds",
+    "type": "Contract Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        { "type": "gain_power", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "confine", "value": 2 }
+      ]
+    }
+  },
+  {
+    "name": "Mercymother Elite",
+    "art": "tot_almalexia_mercymothersmarauder.dds",
+    "type": "Agent",
+    "cost": 8,
+    "health": 5,
+    "effects": {
+      "play": [
+        { "type": "gain_coin", "value": 1 }
+      ],
+      "combo2": [
+        { "type": "bonus_patron", "value": 1 }
+      ]
+    },
+    "taunt": true
+  }
+]

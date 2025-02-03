@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Mainland Inquiries",
+    "art": "tot_psijic_mainland-inquiries.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Prescience",
+    "art": "tot_psijic_prescience.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        },
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psijic's Insight",
+    "art": "tot_psijic_insight.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        },
+        {
+          "type": "toss",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psijic Apprentice",
+    "art": "tot_psijic-apprentice.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "toss",
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sage Counsel",
+    "art": "tot_psijic_sage-counsel.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "toss",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scrying Globe",
+    "art": "tot_psijic_scrying-globe.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "toss",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Dreaming Cave",
+    "art": "tot_psijic_the-dreaming-cave.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "draw",
+          "value": 1
+        },
+        {
+          "type": "toss",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Time Mastery",
+    "art": "tot_psijic_time-mastery.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "toss",
+          "value": 5
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Augur's Counsel",
+    "art": "tot_psijic_augurs-counsel.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "toss",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ceporah's Insight",
+    "art": "tot_psijic_ceporahs-insight.dds",
+    "type": "Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        },
+        {
+          "type": "toss",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Prophesy",
+    "art": "tot_psijic_prophecy.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        },
+        {
+          "type": "replace",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Psijic Relicmaster",
+    "art": "tot_psijic-relicmaster.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        },
+        {
+          "type": "toss",
+          "value": 4
+        }
+      ]
+    }
+  }
+]

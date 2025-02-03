@@ -1,0 +1,349 @@
+[
+  {
+    "name": "Ritual Herbs",
+    "art": "tot_druidking_ritual-herbs.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Deepwoods Ritual",
+    "art": "tot_druidking_deepwoods-ritual.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eldertide Fenwitch",
+    "art": "tot_druidking_eldertide-fenwitch.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_coin",
+            "value": 1
+          }
+        }
+      ],
+      "combo2": [
+        {
+          "type": "create",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Firesong Haruspex",
+    "art": "tot_druidking_haruspex.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 1,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        },
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_prestige",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Forest Wraith",
+    "art": "tot_druidking_forest-wraith.dds",
+    "type": "Contract Agent",
+    "cost": 4,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_power",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Runes of the Draoife",
+    "art": "tot_druidking_runes-of-the-draiofe.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_power",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Stonelore Rockseer",
+    "art": "tot_druidking_stonelore-rockseer.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_coin",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Whispers of the Grove",
+    "art": "tot_druidking_whispers-of-the-grove.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wispcaller Totem",
+    "art": "tot_druidking_wispcaller-totem.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Draoife Ritecaller",
+    "art": "tot_druidking_draoife-ritecaller.dds",
+    "type": "Agent",
+    "cost": 6,
+    "health": 3,
+    "effects": {
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_coin",
+            "value": 1
+          }
+        }
+      ],
+      "combo2": [
+        {
+          "type": "create",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Druid King Vestments",
+    "art": "tot_druidking_vestments-of-the-druid.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_power",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Envoy of the Draoife",
+    "art": "tot_druidking_envoy-of-the-draoife.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "while_in_play": [
+        {
+          "trigger": "placed_in_cooldown",
+          "effect": {
+            "type": "gain_coin",
+            "value": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wispheart Totem",
+    "art": "tot_druidking_wispheart-totem.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo4": [
+        {
+          "type": "gain_coin",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Chimera",
+    "art": "tot_druidking_chimera.dds",
+    "type": "Agent",
+    "cost": null,
+    "health": 5,
+    "effects": {
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo4": [
+        {
+          "type": "gain_prestige",
+          "value": 3
+        }
+      ]
+    },
+    "taunt": true
+  }
+]
