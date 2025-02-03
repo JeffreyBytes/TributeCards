@@ -26,8 +26,7 @@ class CardType(Enum):
     CONTRACT_ACTION = "Contract Action"
     AGENT = "Agent"
     CONTRACT_AGENT = "Contract Agent"
-    CURSE = "Curse"
-    CONTRACT_CURSE = "Contract Curse"
+    CURSE_ACTION = "Curse Action"
 
 # ----------------------------
 # Card Frame Mapping
@@ -37,8 +36,7 @@ CARD_FRAMES = {
     CardType.CONTRACT_ACTION: "tributecardframe_action.dds",
     CardType.AGENT: "tributecardframe_agent.dds",
     CardType.CONTRACT_AGENT: "tributecardframe_agent.dds",
-    CardType.CURSE: "tributecardframe_action.dds",
-    CardType.CONTRACT_CURSE: "tributecardframe_action.dds"
+    CardType.CURSE_ACTION: "tributecardframe_action.dds",
 }
 
 # ----------------------------
@@ -47,8 +45,7 @@ CARD_FRAMES = {
 CARD_BANNERS = {
     CardType.CONTRACT_ACTION: "tributecardcontractbanner.dds",
     CardType.CONTRACT_AGENT: "tributecardcontractbanner.dds",
-    CardType.CONTRACT_CURSE: "tributecardcontractbanner.dds",
-    CardType.CURSE: "tributecardcursebanner.dds"
+    CardType.CURSE_ACTION: "tributecardcursebanner.dds"
 }
 
 # ----------------------------
