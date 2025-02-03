@@ -130,7 +130,11 @@ class Card:
         canvas.save(output_path)
 
     def _load_deck_atlas(self):
-        atlas_filename = get_deck_atlas(self.deck_name)
+        if "Curse" in self.type:
+            atlas_filename = get_deck_atlas(DEFAULT_ATLAS_DECK)
+        else:
+            atlas_filename = get_deck_atlas(self.deck_name)
+
         atlas_path = os.path.join(self.ASSETS_DIR, "patrons", atlas_filename)
         return Image.open(atlas_path)
 
