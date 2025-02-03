@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Gold",
+    "art": "tot_neutral_gold.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ambush",
+    "art": "tot_neutral_ambush.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Barterer",
+    "art": "tot_neutral_barterer.dds",
+    "type": "Contract Action",
+    "cost": 1,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Black Sacrament",
+    "art": "tot_neutral_black-sacrament.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "ko_agent",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blackmail",
+    "art": "tot_neutral_blackmail.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Harvest Season",
+    "art": "tot_neutral_harvest-season.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Imprisonment",
+    "art": "tot_neutral_imprisonment.dds",
+    "type": "Contract Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ragpicker",
+    "art": "tot_neutral_ragpicker.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tithe",
+    "art": "tot_neutral_tithe.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "bonus_patron",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Writ of Coin",
+    "art": "tot_neutral_writ-of-coin.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  }
+]
