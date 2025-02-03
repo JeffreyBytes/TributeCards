@@ -87,7 +87,10 @@ MECHANIC_ICONS = {
     "create": "tributemechaniccarddisplay_createcards.dds",
     "discard": "tributemechaniccarddisplay_discardcards.dds",
     "acquire": "tributemechaniccarddisplay_acquirecards.dds",
-    "toss": "tributemechaniccarddisplay_tosscards.dds"
+    "toss": "tributemechaniccarddisplay_tosscards.dds",
+    "lose_power": "tributemechaniccarddisplay_loseresources_0.dds",
+    "lose_coin": "tributemechaniccarddisplay_loseresources_1.dds",
+    "lose_prestige": "tributemechaniccarddisplay_loseresources_2.dds"
 }
 
 # ----------------------------
