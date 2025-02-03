@@ -28,8 +28,9 @@ class Card:
     NAME_BANNER_WIDTH, NAME_BANNER_HEIGHT = 256, 64
     DEFEAT_BANNER_WIDTH, DEFEAT_BANNER_HEIGHT = 64, 64
 
-    def __init__(self, name, art, type_, cost, health, effects, taunt=False, deck_name=None):
+    def __init__(self, name, art, type_, cost, health, effects, taunt=False, deck_name=None, display_name=None):
         self.name = name
+        self.display_name = display_name
         self.art_filename = art                  # Just the filename, full path handled separately
         self.type = type_
         self.cost = cost
@@ -57,6 +58,7 @@ class Card:
 
         return Card(
             name=data["name"],
+            display_name=data.get("display_name", None),
             art=data["art"],
             type_=data["type"],
             cost=data["cost"],
@@ -193,6 +195,10 @@ class Card:
 
     def _render_name_banner(self):
         """Creates a separate canvas for the name banner with text"""
+        name_text = self.name
+        if self.display_name is not None:
+            name_text = self.display_name
+
         banner = self._load_name_banner()
 
         # Create a new blank canvas for the name banner
@@ -205,13 +211,13 @@ class Card:
         font = ImageFont.truetype(font_path, 20)
 
         # Center the text within the banner
-        bbox = draw.textbbox((0, 0), self.name, font=font)
+        bbox = draw.textbbox((0, 0), name_text, font=font)
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
         text_x = (self.NAME_BANNER_WIDTH - text_width) / 2
         text_y = (self.NAME_BANNER_HEIGHT // 2) - (text_height // 2) - 13       # TODO: finetune later
 
-        draw.text((text_x, text_y), self.name, font=font, fill="black")
+        draw.text((text_x, text_y), name_text, font=font, fill="black")
 
         # banner_canvas.show()
 
