@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Sea Elf Raid",
+    "art": "tot_orgnum_sea-elf-raid.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ghostscale Sea Serpent",
+    "art": "tot_orgnum_ghostscale-sea-serpent.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        },
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "King Orgnum's Command",
+    "display_name": "King Orgnum's Com...",
+    "art": "tot_orgnum_king-orgnums-command.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "bonus_patron",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Maormer Boarding Party",
+    "display_name": "Maormer Boarding Pa...",
+    "art": "tot_orgnum_maormer-boarding-party.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Maormer Cutter",
+    "art": "tot_orgnum_maormer-cutter.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sea Raider's Glory",
+    "art": "tot_orgnum_sea-raiders-glory.dds",
+    "type": "Contract Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_prestige",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Serpentprow Schooner",
+    "art": "tot_orgnum_serpentprow-schooner.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Storm Shark Wavecaller",
+    "art": "tot_orgnum_storm-shark-wavecaller.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Snakeskin Freebooter",
+    "art": "tot_orgnum_snakeskin-freebooter.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 3,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "create",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pyandonean War Fleet",
+    "art": "tot_orgnum_pyandonean-war-fleet.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sea Serpent Colossus",
+    "art": "tot_orgnum_sea-serpent-colossus.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        },
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Serpentguard Rider",
+    "art": "tot_orgnum_serpentguard-rider.dds",
+    "type": "Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        },
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Summerset Sacking",
+    "art": "tot_orgnum_summerset-sacking.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_prestige",
+          "value": 1
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  }
+]
