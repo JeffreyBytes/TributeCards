@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Fortify",
+    "art": "tot_pelin_fortify-brace.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Archer's Volley",
+    "art": "tot_pelin_archers-volley.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bangkorai Sentries",
+    "art": "tot_pelin_bangkorai-sentries.dds",
+    "type": "Agent",
+    "cost": 7,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "Banneret",
+    "art": "tot_pelin_banneret.dds",
+    "type": "Agent",
+    "cost": 9,
+    "health": 5,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "Rally",
+    "art": "tot_pelin_rally.dds",
+    "type": "Action",
+    "cost": 8,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 6
+        }
+      ],
+      "combo2": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Reinforcements",
+    "art": "tot_pelin_reinforcements.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo3": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shield Bearer",
+    "art": "tot_pelin_shield-bearer.dds",
+    "type": "Contract Agent",
+    "cost": 6,
+    "health": 5,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "The Armory",
+    "art": "tot_pelin_the-armory.dds",
+    "type": "Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 5
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Portcullis",
+    "art": "tot_pelin_porticullis.dds",
+    "type": "Action",
+    "cost": 2,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Knight Commander",
+    "art": "tot_pelin_knights-commander-1.dds",
+    "type": "Agent",
+    "cost": 9,
+    "health": 5,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "heal_self",
+          "value": 2
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "Knights of Saint Pelin",
+    "art": "tot_pelin_knights-of-stpelin.dds",
+    "type": "Agent",
+    "cost": 7,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    },
+    "taunt": true
+  },
+  {
+    "name": "Legion's Arrival",
+    "art": "tot_pelin_legions-arrival.dds",
+    "type": "Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Siege Weapon Volley",
+    "art": "tot_pelin_siege-weapon-volley.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 4
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  }
+]
