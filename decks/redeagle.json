@@ -1,0 +1,263 @@
+[
+  {
+    "name": "War Song",
+    "art": "tot_reach_war-song.dds",
+    "type": "Action",
+    "cost": null,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bloody Offering",
+    "art": "tot_reach_bloody-offering.dds",
+    "type": "Contract Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        },
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bonfire",
+    "art": "tot_reach_bonfire.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Briarheart Ritual",
+    "art": "tot_reach_briarheart_ritual.dds",
+    "type": "Contract Action",
+    "cost": 5,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        },
+        {
+          "type": "destroy_cards",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Clan-Witch",
+    "art": "tot_reach_clan-witch.dds",
+    "type": "Contract Agent",
+    "cost": 6,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hagraven",
+    "art": "tot_reach_hagraven.dds",
+    "type": "Agent",
+    "cost": 9,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Imperial Spoils",
+    "art": "tot_reach_imperial-spoils.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "replace",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Karth Man-Hunter",
+    "art": "tot_reach_karth-man-hunter.dds",
+    "type": "Contract Agent",
+    "cost": 5,
+    "health": 2,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Midnight Raid",
+    "art": "tot_reach_midnight-raid.dds",
+    "type": "Action",
+    "cost": 4,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Blood Sacrifice",
+    "art": "tot_reach_blood-sacrifice.dds",
+    "type": "Contract Action",
+    "cost": 6,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        },
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ],
+      "combo2": [
+        {
+          "type": "draw",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elder Witch",
+    "art": "tot_reach_elder-witch.dds",
+    "type": "Contract Agent",
+    "cost": 6,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "replace",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hagraven Matron",
+    "art": "tot_reach_hagraven-matron.dds",
+    "type": "Agent",
+    "cost": 9,
+    "health": 4,
+    "effects": {
+      "play": [
+        {
+          "type": "destroy_cards",
+          "value": 1
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_power",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Imperial Plunder",
+    "art": "tot_reach_imperial-plunder.dds",
+    "type": "Contract Action",
+    "cost": 3,
+    "health": null,
+    "effects": {
+      "play": [
+        {
+          "type": "replace",
+          "value": 2
+        }
+      ],
+      "combo2": [
+        {
+          "type": "gain_coin",
+          "value": 2
+        }
+      ]
+    }
+  }
+]
