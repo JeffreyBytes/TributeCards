@@ -37,8 +37,18 @@ cd TributeCards
 ```
 
 ### 2️⃣ **Install Dependencies**
-Make sure you have Python installed, then run:
+Make sure you have Python installed, then set up a virtual environment (**recommended**):
 ```bash
+# Create a virtual environment (optional but recommended)```
+python -m venv venv
+
+# Activate it
+  # On Windows:
+venv\Scripts\activate
+  # On macOS/Linux:
+source venv/bin/activate
+
+# Install Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -46,16 +56,14 @@ pip install -r requirements.txt
 Place the required asset files inside the `assets/` folder.
 
 #### Where to Get the Assets?
-The game assets **are not included in this repository** due to legal reasons.
+This repository **does not include any ESO game assets** due to legal reasons.  
 
-To generate the cards, you will need:
-- ESO game files (Tales of Tribute assets)
+To generate the cards, you will need **one of the following**:
 
-OR
+- **ESO Game Files** – Extracted Tales of Tribute assets from *The Elder Scrolls Online*.
+- **Custom Artwork** – Your own images that match the official card dimensions.
 
-- Custom art assets that match the official dimensions
-
-🔹 **I will not provide direct links or instructions**, but a quick search for ESO modding tools should help.
+⚠️ **Important:** I will not provide direct links or instructions for extracting ESO assets. However, experienced modders may find tools available through community resources.
 
 ---
 
@@ -70,7 +78,7 @@ python scripts/main.py
 ---
 
 ## 🛠️ Configuration
-You can modify constants.py to adjust:
+You can modify `constants.py` to adjust:
 - Default asset paths
 - Font settings
 - Card layout adjustments
@@ -79,11 +87,10 @@ You can modify constants.py to adjust:
 
 ## 🎯 Future Improvements
 
-- Complete all official card decks
 - More automation & batch processing
 - Better asset management tools
 
---- 
+---
 
 ## 💡 Contributing
 
