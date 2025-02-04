@@ -87,7 +87,9 @@ MECHANIC_ICONS = {
     "toss": "tributemechaniccarddisplay_tosscards.dds",
     "lose_power": "tributemechaniccarddisplay_loseresources_0.dds",
     "lose_coin": "tributemechaniccarddisplay_loseresources_1.dds",
-    "lose_prestige": "tributemechaniccarddisplay_loseresources_2.dds"
+    "lose_prestige": "tributemechaniccarddisplay_loseresources_2.dds",
+    "heal_agent": "tributemechaniccarddisplay_healagent.dds",
+    "heal_self": "tributemechaniccarddisplay_agentselfheal.dds"
 }
 
 # ----------------------------
