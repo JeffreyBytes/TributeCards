@@ -139,7 +139,7 @@
     "name": "Sleight of Hand",
     "art": "tot_rahjin_sleight-of-hand.dds",
     "type": "Action",
-    "cost": 5,
+    "cost": 2,
     "health": null,
     "effects": {
       "play": [
