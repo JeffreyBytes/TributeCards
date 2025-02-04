@@ -20,6 +20,8 @@ import logging
 from PIL import Image, ImageDraw, ImageFont
 import os
 from constants import *
+from scripts.utils import sanitize_filename
+
 
 class Card:
     CARD_WIDTH, CARD_HEIGHT = 284, 493
@@ -125,8 +127,7 @@ class Card:
             canvas.paste(mechanic_canvas, mechanic_position, mask=mechanic_canvas)
 
         # Save & Show
-        # canvas.show()
-        output_path = os.path.join(deck_output_dir, f"{self.deck_name.lower()}_{self.name.lower().replace(' ', '_')}.png")
+        output_path = os.path.join(deck_output_dir, sanitize_filename(f"{self.deck_name.lower()}_{self.name.lower()}.png"))
         canvas.save(output_path)
 
     def _load_deck_atlas(self):
